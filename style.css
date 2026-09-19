@@ -20,3 +20,11 @@
   .hero-banner{height:auto!important;padding:0!important;background:#fff!important;overflow:hidden}
   .hero-banner img{display:block;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important}
 }
+
+/* Desktop: banner completo sem recorte; mobile permanece responsivo */
+.hero-banner{height:auto!important;padding:0!important;overflow:hidden!important;background:#fff!important}
+.hero-banner img{display:block!important;width:100%!important;height:auto!important;object-fit:contain!important;object-position:center!important}
+@media(min-width:701px){
+ .hero-banner{max-height:none!important}
+ .hero-banner img{max-height:330px!important;object-fit:contain!important}
+}
