@@ -1,0 +1,10 @@
+{
+  "name": "Dê um Click Achados",
+  "short_name": "Dê um Click",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff7fa",
+  "theme_color": "#f50668",
+  "description": "Vitrine de achadinhos com compra direta na Shopee"
+}
