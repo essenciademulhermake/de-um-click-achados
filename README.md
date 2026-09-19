@@ -1,1 +1,1 @@
-# de-um-click-achados
+# Dê um Click Achados\nVitrine online de achadinhos e links de afiliada Shopee.
