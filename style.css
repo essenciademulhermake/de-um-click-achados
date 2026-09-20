@@ -63,3 +63,20 @@
   .slogan{font-size:19px!important;line-height:1.18!important;padding-right:6px!important}
   .hero-banner img{width:100%!important;height:auto!important;max-height:190px!important;object-fit:cover!important;object-position:center!important}
 }
+
+
+/* Lettering do slogan como no visual anterior */
+.slogan{
+  font-family:"Brush Script MT","Segoe Script","Lucida Handwriting",cursive!important;
+  font-weight:400!important;
+  font-style:italic!important;
+  letter-spacing:-1px!important;
+  color:#b10f50!important;
+  line-height:1.05!important;
+}
+@media(min-width:701px){
+  .slogan{font-size:38px!important}
+}
+@media(max-width:700px){
+  .slogan{font-size:21px!important;letter-spacing:-.5px!important}
+}
