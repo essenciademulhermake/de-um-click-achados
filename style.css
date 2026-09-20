@@ -80,3 +80,46 @@
 @media(max-width:700px){
   .slogan{font-size:21px!important;letter-spacing:-.5px!important}
 }
+
+
+/* Refinamento do cabeçalho */
+@media(min-width:701px){
+  header{padding-bottom:14px!important}
+  .head{
+    min-height:132px!important;
+    padding:8px 4.5% 4px!important;
+    display:grid!important;
+    grid-template-columns:270px 1fr 270px!important;
+    align-items:center!important;
+  }
+  .brand{width:270px!important;display:flex!important;justify-content:flex-start!important}
+  .brand img{width:230px!important;height:118px!important;margin:0!important;object-fit:contain!important}
+  .slogan{
+    justify-self:center!important;
+    font-size:35px!important;
+    line-height:1.02!important;
+    margin:0!important;
+    transform:translateY(2px);
+  }
+  .search{
+    width:min(1080px,70%)!important;
+    margin:0 auto 16px!important;
+    height:56px!important;
+  }
+  .quick{
+    width:min(1360px,82%)!important;
+    margin:0 auto!important;
+    padding:0!important;
+    justify-content:center!important;
+    gap:8px!important;
+  }
+  .quick button,.quick a{
+    min-height:64px!important;
+    padding:8px 22px!important;
+    border-radius:14px!important;
+  }
+}
+@media(max-width:700px){
+  .head{display:flex!important}
+  .search{margin:0 3% 10px!important;width:94%!important}
+}
