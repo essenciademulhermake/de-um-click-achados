@@ -217,3 +217,66 @@ main{margin:6px 1%!important;border-radius:0!important;padding:10px!important;ba
  .hero-links b{font-size:10px}.hero-links small{font-size:8px}
  .grid{grid-template-columns:repeat(2,1fr)!important}
 }
+
+
+/* POLIMENTO VISUAL — marketplace premium rosa, lettering e cards */
+:root{--pink:#f50668;--pink2:#ff4d93;--rose:#fff1f6;--ink:#2a1720}
+.market-head{background:radial-gradient(circle at 82% 20%,#ffdbe9 0,transparent 28%),linear-gradient(120deg,#fff 0%,#fff8fb 48%,#ffeaf3 100%)!important}
+.market-top{position:relative}
+.market-center .slogan{
+ font-family:"Brush Script MT","Segoe Script","Lucida Handwriting",cursive!important;
+ font-size:35px!important;font-weight:500!important;letter-spacing:.2px!important;color:#9f174c!important;
+ text-shadow:0 1px 0 #fff;margin-bottom:18px!important
+}
+.market-center .slogan strong{font-family:Arial,sans-serif!important;font-size:.78em!important;font-style:normal!important;letter-spacing:-.5px!important}
+.market-center .search{border:2px solid #f7a4c4!important;box-shadow:0 8px 24px #ef4c8a1c!important}
+.market-center .benefits span{background:#fff;border:1px solid #f5dce6;border-radius:14px;padding:9px 10px;box-shadow:0 5px 15px #8f31530d}
+.market-stamp{background:linear-gradient(145deg,#ffc64e,#ffad32)!important;border:3px solid #fff;box-shadow:0 8px 20px #d9852433!important}
+.cats{box-shadow:0 5px 18px #c7437410!important}
+.cats button{transition:.18s ease;padding:8px!important}
+.cats button:hover{transform:translateY(-3px);background:#fff!important;box-shadow:0 8px 18px #d84c811a}
+.cats button:first-child{background:linear-gradient(145deg,#ffdce9,#fff)!important;box-shadow:0 5px 14px #dd4f8318}
+.hero-row{padding-top:18px!important}
+.hero-row .hero-banner{box-shadow:0 10px 28px #b63d681c!important}
+.hero-links a{
+ border:1px solid #f2d4e0!important;border-radius:16px!important;
+ background:linear-gradient(135deg,#fff,#fff8fb)!important;
+ box-shadow:0 7px 18px #9d345b10!important;transition:.18s ease
+}
+.hero-links a:hover{transform:translateX(-4px);border-color:#f69abd!important}
+.hero-links a:nth-child(1){border-left:5px solid #ff6a43!important}
+.hero-links a:nth-child(2){border-left:5px solid #ffad32!important}
+.hero-links a:nth-child(3){border-left:5px solid #ff3f7f!important}
+.hero-links a:nth-child(4){border-left:5px solid #ef0c68!important}
+.hero-links b{font-size:14px!important}.hero-links small{line-height:1.25}
+.offerhead{margin:4px 0 14px!important;padding:10px 4px 12px!important}
+.offerhead h2{
+ font-family:"Brush Script MT","Segoe Script","Lucida Handwriting",cursive!important;
+ font-size:38px!important;font-weight:500!important;color:#d90b5e!important
+}
+.offerhead span{box-shadow:0 5px 14px #ed176d25}
+.grid{gap:16px!important}
+.card{
+ border:1px solid #f0dce4!important;border-radius:18px!important;padding:11px!important;
+ box-shadow:0 8px 22px #6e26420d!important;overflow:hidden;transition:.2s ease;background:linear-gradient(180deg,#fff,#fffafd)!important
+}
+.card:hover{transform:translateY(-5px);box-shadow:0 14px 30px #a72c591c!important;border-color:#f3aac5!important}
+.card .pic{height:165px!important;background:linear-gradient(145deg,#fff,#fff5f9);border-radius:13px;margin-bottom:9px}
+.card .badge{top:12px!important;left:12px!important;border-radius:20px!important;padding:5px 10px!important;box-shadow:0 3px 8px #c4135525}
+.card h3{font-size:14px!important;line-height:1.25!important;min-height:35px;color:#2a1d22}
+.card .price{font-size:23px!important;margin:6px 0 9px}
+.card>a{border-radius:10px!important;padding:10px!important;background:linear-gradient(90deg,#f50668,#ff4d86)!important;box-shadow:0 5px 12px #f5066824}
+.notice{border-radius:18px!important;box-shadow:0 6px 18px #a53d6410!important}
+.notice b{font-family:"Brush Script MT","Segoe Script","Lucida Handwriting",cursive!important;font-size:24px!important}
+.trust{border-radius:14px!important;padding:16px!important}
+@media(max-width:700px){
+ .market-center .slogan{font-size:18px!important;line-height:1.05!important;margin-bottom:8px!important}
+ .market-center .benefits{display:none!important}
+ .hero-links a{border-radius:12px!important}
+ .offerhead h2{font-size:27px!important}
+ .grid{gap:9px!important}
+ .card{border-radius:14px!important;padding:8px!important}
+ .card .pic{height:130px!important}
+ .card h3{font-size:12px!important;min-height:30px}
+ .card .price{font-size:19px!important}
+}
