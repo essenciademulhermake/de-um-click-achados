@@ -303,3 +303,60 @@ main{margin:6px 1%!important;border-radius:0!important;padding:10px!important;ba
   .hero-row .hero-banner img{height:155px!important;max-height:155px!important;object-fit:cover!important}
   .offerhead h2{font-size:21px!important;letter-spacing:-.3px!important}
 }
+
+
+/* Rodapé refinado — aviso marketplace + benefícios + navegação */
+.notice{
+  max-width:calc(100% - 48px)!important;
+  margin:22px auto 10px!important;
+  padding:18px 22px!important;
+  background:linear-gradient(135deg,#fff,#fff7fa)!important;
+  border:1px solid #f3b5cd!important;
+  border-left:5px solid #f50668!important;
+  border-radius:16px!important;
+  box-shadow:0 7px 22px rgba(122,27,65,.07)!important;
+  color:#6f2743!important;
+}
+.notice b{
+  display:block!important;
+  font-family:Arial,Helvetica,sans-serif!important;
+  font-size:18px!important;
+  font-weight:800!important;
+  color:#df0a61!important;
+  margin-bottom:7px!important;
+}
+.notice p,.notice div{font-size:13px!important;line-height:1.55!important;margin:0!important}
+.trust{
+  max-width:calc(100% - 48px)!important;
+  margin:0 auto 12px!important;
+  min-height:58px!important;
+  display:grid!important;
+  grid-template-columns:repeat(5,1fr)!important;
+  align-items:center!important;
+  gap:8px!important;
+  background:#fff8fb!important;
+  border:1px solid #f6dce6!important;
+  border-radius:14px!important;
+  box-shadow:none!important;
+}
+.trust>*{
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  min-height:38px!important;padding:7px 10px!important;
+  font-size:12px!important;font-weight:600!important;color:#7c3150!important;
+  border-right:1px solid #f1dbe4!important;text-align:center!important
+}
+.trust>*:last-child{border-right:0!important}
+.bottom-nav{
+  min-height:68px!important;
+  background:linear-gradient(90deg,#ec075f,#fa0063)!important;
+  box-shadow:0 -5px 18px rgba(174,0,66,.12)!important
+}
+.bottom-nav a{font-weight:600!important}
+@media(max-width:700px){
+ .notice{max-width:calc(100% - 24px)!important;margin:14px auto 8px!important;padding:14px 15px!important;border-radius:13px!important}
+ .notice b{font-size:16px!important}
+ .notice p,.notice div{font-size:11px!important;line-height:1.45!important}
+ .trust{max-width:100%!important;margin:0!important;display:flex!important;overflow-x:auto!important;justify-content:flex-start!important;border-radius:0!important;padding:5px 8px!important;min-height:48px!important}
+ .trust>*{min-width:max-content!important;font-size:10px!important;padding:6px 12px!important}
+ .bottom-nav{min-height:60px!important}
+}
