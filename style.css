@@ -28,3 +28,38 @@
  .hero-banner{max-height:none!important}
  .hero-banner img{max-height:330px!important;object-fit:contain!important}
 }
+
+
+/* Responsividade definitiva da vitrine: desktop + celular */
+.hero-banner{
+  width:100%!important;
+  height:auto!important;
+  padding:0!important;
+  margin:0!important;
+  overflow:hidden!important;
+  background:#fff!important;
+}
+.hero-banner img{
+  display:block!important;
+  width:100%!important;
+  max-width:none!important;
+  height:auto!important;
+  max-height:none!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  margin:0!important;
+}
+@media(min-width:701px){
+  .head{min-height:150px!important;padding:12px 5%!important}
+  .brand{width:300px!important;flex:0 0 300px!important}
+  .brand img{width:260px!important;max-width:none!important;height:125px!important;object-fit:contain!important}
+  .slogan{font-size:30px!important;line-height:1.15!important}
+  .hero-banner img{width:100%!important;height:auto!important;max-height:360px!important;object-fit:cover!important;object-position:center!important}
+}
+@media(max-width:700px){
+  .head{min-height:118px!important;padding:4px 3% 8px!important}
+  .brand{width:205px!important;flex:0 0 205px!important}
+  .brand img{width:205px!important;max-width:none!important;height:112px!important;object-fit:contain!important}
+  .slogan{font-size:19px!important;line-height:1.18!important;padding-right:6px!important}
+  .hero-banner img{width:100%!important;height:auto!important;max-height:190px!important;object-fit:cover!important;object-position:center!important}
+}
