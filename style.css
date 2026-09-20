@@ -123,3 +123,40 @@
   .head{display:flex!important}
   .search{margin:0 3% 10px!important;width:94%!important}
 }
+
+
+/* Layout inspirado na nova referência, em versão clara rosa/branca */
+header{background:linear-gradient(135deg,#fff 0%,#fff6fa 55%,#ffeaf3 100%)!important}
+.headline{flex:1;display:flex;align-items:center;justify-content:center}
+.slogan{font-family:Arial,sans-serif!important;font-style:normal!important;font-weight:600!important;letter-spacing:0!important;color:#2f1c25!important}
+.slogan strong{color:#ec0b67;font-weight:800}
+.benefits{display:flex;justify-content:center;gap:54px;margin:4px auto 18px;color:#38212c;font-size:13px;font-weight:700;text-align:left}
+.cats{background:linear-gradient(90deg,#fff7fb,#ffeef5,#fff7fb)!important;border-top:1px solid #f7d6e3;border-bottom:1px solid #f3cada}
+.cats button{background:transparent!important;border:0!important;border-radius:16px!important}
+.cats button:first-child{background:#ffe3ee!important;color:#e80b63!important}
+.hero-banner{background:#fff!important}
+main{background:#fff!important}
+.offerhead{background:#fff!important}
+.grid{background:#fff!important}
+.notice{background:#fff8fb!important}
+.trust{background:#fff7fa!important}
+@media(min-width:701px){
+ .head{min-height:120px!important;grid-template-columns:300px 1fr 180px!important;padding:10px 3% 0!important}
+ .brand img{width:280px!important;height:115px!important}
+ .headline{justify-content:flex-start!important}
+ .slogan{font-size:23px!important;text-align:left!important}
+ .search{width:min(900px,58%)!important;margin:-55px 6% 20px auto!important}
+ .benefits{width:min(850px,58%);margin:-4px 6% 16px auto}
+ .cats{padding:8px 2%!important;justify-content:space-around!important}
+ .cats button{font-size:28px!important;min-width:90px!important}
+ .cats small{font-size:11px!important}
+ .hero-banner img{max-height:390px!important;object-fit:cover!important}
+}
+@media(max-width:700px){
+ .head{min-height:105px!important}
+ .headline{justify-content:center!important}
+ .slogan{font-size:16px!important;text-align:center!important}
+ .benefits{overflow-x:auto;justify-content:flex-start;gap:24px;padding:0 4% 10px;margin:0;font-size:10px;white-space:nowrap}
+ .cats{order:initial;padding:8px 2%!important}
+ .hero-banner img{max-height:190px!important}
+}
