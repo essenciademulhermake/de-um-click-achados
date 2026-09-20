@@ -160,3 +160,60 @@ main{background:#fff!important}
  .cats{order:initial;padding:8px 2%!important}
  .hero-banner img{max-height:190px!important}
 }
+
+
+/* VITRINE MARKETPLACE — estrutura da referência, sem fundo preto */
+.market-head{padding:0!important;background:linear-gradient(135deg,#fff,#fff5f9 58%,#ffe6f0)!important;border-bottom:1px solid #f3cddd}
+.market-top{max-width:1500px;margin:auto;min-height:220px;padding:18px 28px;display:grid;grid-template-columns:330px 1fr 235px;gap:30px;align-items:center}
+.market-top .brand{width:auto!important;display:block!important}
+.market-top .brand img{width:310px!important;height:180px!important;max-width:100%!important;object-fit:contain!important}
+.market-center{align-self:center}
+.market-center .slogan{font-family:Arial,sans-serif!important;font-style:normal!important;font-size:27px!important;font-weight:500!important;text-align:left!important;color:#2b2025!important;margin:0 0 14px!important;transform:none!important}
+.market-center .slogan strong{color:#ed0b68!important}
+.market-center .search{width:100%!important;height:56px!important;margin:0 0 22px!important;background:#fff!important;border:0!important;box-shadow:0 3px 12px #b65b7a22!important}
+.market-center .search button{width:70px!important;font-size:0!important;border-radius:50px!important}
+.market-center .search button:after{content:"⌕";font-size:31px}
+.market-center .benefits{width:100%!important;margin:0!important;display:grid!important;grid-template-columns:repeat(4,1fr);gap:16px!important;font-size:12px!important}
+.market-center .benefits span{display:grid;grid-template-columns:30px 1fr;align-items:center;column-gap:6px;font-size:22px;color:#ed0b68}
+.market-center .benefits b{font-size:12px;color:#2c2226}
+.market-center .benefits small{grid-column:2;font-size:10px;color:#6d5b62;font-weight:400}
+.market-stamp{background:#ffbd3e;padding:22px 14px;transform:rotate(-3deg);font-size:22px;line-height:1.25;text-align:center;color:#291d1d;border-radius:8px;box-shadow:0 5px 12px #0001}
+.cats{max-width:none!important;margin:0!important;background:linear-gradient(90deg,#fff7fb,#ffeef5,#fff7fb)!important;padding:10px 2%!important;justify-content:center!important;gap:22px!important;border:0!important}
+.cats button{min-width:92px!important;font-size:30px!important;padding:4px 6px!important}
+.cats small{font-size:11px!important;color:#261b20!important}
+.hero-row{display:grid;grid-template-columns:minmax(0,4fr) minmax(240px,1fr);gap:14px;padding:14px 2% 6px;background:#fff}
+.hero-row .hero-banner{width:100%!important;border-radius:10px!important;overflow:hidden!important}
+.hero-row .hero-banner img{width:100%!important;height:100%!important;max-height:350px!important;object-fit:cover!important}
+.hero-links{display:grid;grid-template-rows:repeat(4,1fr);gap:9px}
+.hero-links a{display:flex;align-items:center;gap:12px;border:1px solid #eadde2;border-radius:10px;padding:12px;text-decoration:none;color:#2a2024;background:#fff;box-shadow:0 1px 4px #00000008;font-size:25px}
+.hero-links span{display:flex;flex-direction:column}
+.hero-links b{font-size:13px}
+.hero-links small{font-size:10px;color:#6e6267;margin-top:2px}
+main{margin:6px 1%!important;border-radius:0!important;padding:10px!important;background:#fff!important}
+.offerhead{border-bottom:1px solid #f3e2e9;padding-bottom:8px}
+.grid{grid-template-columns:repeat(6,1fr)!important;gap:12px!important}
+.card{border:1px solid #eee2e7!important;box-shadow:none!important}
+.notice{margin-bottom:8px!important}
+.trust{margin:8px 0 78px!important;border-top:1px solid #f3dbe5;border-bottom:1px solid #f3dbe5}
+@media(max-width:700px){
+ .market-top{min-height:auto;padding:10px 12px;display:grid;grid-template-columns:125px 1fr;gap:8px}
+ .market-top .brand img{width:125px!important;height:90px!important}
+ .market-center .slogan{font-size:14px!important;margin-bottom:7px!important}
+ .market-center .search{height:42px!important;margin:0!important}
+ .market-center .search span{font-size:22px;padding-left:12px}
+ .market-center .search input{font-size:12px;padding:0 8px}
+ .market-center .search button{width:48px!important}
+ .market-center .search button:after{font-size:22px}
+ .market-center .benefits{grid-column:1/3;display:none!important}
+ .market-stamp{display:none}
+ .cats{justify-content:flex-start!important;gap:2px!important;padding:7px 1%!important}
+ .cats button{min-width:76px!important;font-size:25px!important}
+ .cats small{font-size:9px!important}
+ .hero-row{display:block;padding:7px 0 0}
+ .hero-row .hero-banner{border-radius:0!important}
+ .hero-row .hero-banner img{max-height:190px!important;object-fit:cover!important}
+ .hero-links{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:auto;gap:5px;padding:7px 3%}
+ .hero-links a{padding:7px;font-size:18px}
+ .hero-links b{font-size:10px}.hero-links small{font-size:8px}
+ .grid{grid-template-columns:repeat(2,1fr)!important}
+}
