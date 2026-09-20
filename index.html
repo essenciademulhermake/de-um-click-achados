@@ -1,9 +1,18 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f50668"><title>Dê um Click Achados</title><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css"></head><body>
 <div class="top"><span>▣ <b id="dataHoje"></b></span><span>◷ <b id="horaAgora"></b></span></div>
-<header><div class="head"><div class="brand"><img src="logo.png" alt="Dê um Click Achados"></div><div class="headline"><div class="slogan">Tudo o que você ama, <strong>a um click</strong> de você! ♡</div><div class="actions"></div></div></div>
-<div class="search"><span>⌕</span><input id="busca" placeholder="O que você está procurando?"><button>Buscar</button></div>
-<div class="benefits"><span>🛍️ Compra segura<br>nos marketplaces</span><span>♡ Produtos<br>selecionados</span><span>◉ Ofertas<br>atualizadas</span><span>🔗 Links oficiais<br>de afiliada</span></div></header>
-<nav id="cats" class="cats"></nav><section class="hero hero-banner"><img src="banner.png" alt="Dê um Click Achados — achados da Shopee e Mercado Livre"></section>
+<header class="market-head">
+  <div class="market-top">
+    <div class="brand"><img src="logo.png" alt="Dê um Click Achados"></div>
+    <div class="market-center">
+      <div class="slogan">Tudo o que você ama, <strong>a um click</strong> de você! ♡</div>
+      <div class="search"><span>⌕</span><input id="busca" placeholder="O que você está procurando?"><button>Buscar</button></div>
+      <div class="benefits"><span>🛍️ <b>Compra segura</b><small>direto no marketplace</small></span><span>♡ <b>Produtos selecionados</b><small>achados escolhidos</small></span><span>◉ <b>Ofertas atualizadas</b><small>novidades todos os dias</small></span><span>🔗 <b>Links de afiliada</b><small>compra na plataforma</small></span></div>
+    </div>
+    <div class="market-stamp"><b>ACHADOS<br>OFERTAS<br>UTILIDADES<br>E MUITO MAIS!</b></div>
+  </div>
+</header>
+<nav id="cats" class="cats"></nav>
+<div class="hero-row"><section class="hero hero-banner"><img src="banner.png" alt="Dê um Click Achados — achados da Shopee e Mercado Livre"></section><aside class="hero-links"><a href="#ofertas">🔥 <span><b>Ofertas do Dia</b><small>Produtos com descontos especiais</small></span></a><a href="#ofertas">🏷️ <span><b>Até R$50</b><small>Achados imperdíveis</small></span></a><a href="#ofertas">⭐ <span><b>Mais Procurados</b><small>Os queridinhos da vitrine</small></span></a><a href="#ofertas">🎁 <span><b>Novidades</b><small>Novos achados para você</small></span></a></aside></div>
 <main id="ofertas"><div class="offerhead"><h2>🔥 OFERTAS DO DIA</h2><span>⏱ Termina em <b id="timer">05 : 10 : 23</b></span><button>Ver todas →</button></div><div id="produtos" class="grid"></div></main>
 <section class="notice"><b>🛍️ Compra direta nos marketplaces</b><p>A Dê um Click Achados é uma vitrine de divulgação. Ao tocar em uma oferta, você será direcionado(a) para a Shopee ou Mercado Livre e fará a compra diretamente na plataforma e com o vendedor responsável pelo anúncio. Pagamento, envio, entrega, atrasos, trocas, devoluções, reembolsos, garantia e suporte do pedido são tratados pelo marketplace e/ou vendedor.</p></section><section class="trust"><span>◇ Achadinhos selecionados</span><span>♢ Segurança na compra</span><span>🚚 Entrega pelo marketplace</span><span>♡ Você compra com 1 clique</span><span>★ Novos achados todos os dias</span></section>
 <nav class="bottom"><a>⌂<small>Início</small></a><a>▦<small>Categorias</small></a><a href="#ofertas">🔥<small>Ofertas</small></a><button id="gestao">☷<small>Meus Achados</small></button></nav>
